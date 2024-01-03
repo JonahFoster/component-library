@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-color: #F2EAE2;
-}
-
-main {
+.productCard {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -17,7 +8,7 @@ main {
   align-items: center;
 }
 
-.product-container {
+.productContainer {
   width: 600px;
   height: 450px;
   background: #FFFFFF;
@@ -25,12 +16,12 @@ main {
   border-radius: 10px;
 }
 
-.product-img {
+.productImg {
   width: 50%;
   height: 100%
 }
 
-.product-info {
+.productInfo {
   width: 50%;
   height: 100%;
   display: flex;
@@ -38,7 +29,7 @@ main {
   padding: 32px;
 }
 
-.product-category {
+.productCategory {
   color: #6C7289;
   font-family: Montserrat, sans-serif;
   font-size: 12px;
@@ -47,7 +38,7 @@ main {
   padding-bottom: 20px;
 }
 
-.product-title {
+.productTitle {
   color: #1C232B;
   font-family: Fraunces, sans-serif;
   font-size: 32px;
@@ -57,7 +48,7 @@ main {
   padding-bottom: 24px;
 }
 
-.product-description {
+.productDescription {
   color: #6C7289;
   font-family: Montserrat, sans-serif;
   font-size: 14px;
@@ -67,11 +58,11 @@ main {
   padding-bottom: 29px;
 }
 
-.product-prices {
+.productPrices {
   display: flex;
 }
 
-.product-price {
+.productPrice {
   color:#3D8168;
   font-family: Fraunces, sans-serif;
   font-size: 32px;
@@ -81,7 +72,7 @@ main {
   padding-bottom: 30px;
 }
 
-.product-price-former {
+.productPriceFormer {
   color: #6C7289;
   font-family: Montserrat, sans-serif;
   font-size: 13px;
@@ -92,7 +83,7 @@ main {
   padding: 4px 0 0 19px;
 }
 
-.add-btn {
+.addBtn {
   width: 236px;
   height: 48px;
   margin: 0;
@@ -108,13 +99,13 @@ main {
   gap: 11px;
 }
 
-.add-btn:hover {
+.addBtn:hover {
   background-color: #1A4032;
   cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
-  .product-container {
+  .productContainer {
     margin: 28px 16px;
     width: 100%;
     height: 100%;
@@ -124,36 +115,36 @@ main {
     flex-direction: column;
   }
 
-  .product-info {
+  .productInfo {
     width: 100%;
     height: 60%;
     padding: 24px;
   }
 
-  .product-img {
+  .productImg {
     width: 100%;
     height: 240px;
     border-radius: 10px 10px 0px 0px;
   }
 
-  .product-category {
+  .productCategory {
     padding-bottom: 12px;
   }
 
-  .product-title {
+  .productTitle {
     padding-bottom: 16px;
   }
 
-  .product-description {
+  .productDescription {
     padding-bottom: 24px;
     max-width: 295px;
   }
 
-  .product-price {
+  .productPrice {
     padding-bottom: 20px;
   }
 
-  .add-btn {
+  .addBtn {
     width: 295px;
   }
 }
