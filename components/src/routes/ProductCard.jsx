@@ -1,8 +1,8 @@
-import shoppingCartImg from '../assets/icon-cart.svg';
-import desktopProductImg from '../assets/image-product-desktop.jpg';
-import mobileProductImg from '../assets/image-product-mobile.jpg';
+import shoppingCartImg from '../assets/ProductCard/icon-cart.svg';
+import desktopProductImg from '../assets/ProductCard/image-product-desktop.jpg';
+import mobileProductImg from '../assets/ProductCard/image-product-mobile.jpg';
 import { useState, useEffect } from 'react';
-import styles from '../assets/stylesheets/ProductCard.module.css';
+import styles from '../assets/ProductCard/ProductCard.module.css';
 
 export default function ProductCard() {
   const [productImg, setProductImg] = useState(desktopProductImg);
